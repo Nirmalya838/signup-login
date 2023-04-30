@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="signup-header">
+                <h1>Log in</h1>
+                <p>Welcome to your Portal!</p>
+            </header>
+            <main class="signup-body">
+                <form action="#">
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="Email" required>
+                    </p>
+                    <p>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" placeholder="at least 6 characters" required>
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" value="Login">
+                    </p>
+                    <footer class="signup-footer">
+                        <p>Do not have an account? <a href="index.html" id="sign">Sign up</a></p>
+                    </footer>
+                </form>
+            </main>
+            <div>
+                <ul id="user-info"></ul>
+            </div>
+    <script src="login.js"></script>
+</body>
+</html>
